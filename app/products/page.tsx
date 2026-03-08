@@ -140,7 +140,7 @@ export default function ProductsPage() {
               Contact us for custom quotes on large wholesale orders. We offer competitive pricing and flexible payment terms.
             </p>
             <a
-              href="https://wa.me/917078120273?text=Hello%20NEETOMAX%2C%20I%20need%20a%20quote%20for%20bulk%20order"
+              href="https://wa.me/917082425766?text=Hello%20NEETOMAX%2C%20I%20need%20a%20quote%20for%20bulk%20order"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block px-8 py-4 bg-white text-primary font-semibold rounded-lg hover:bg-primary-foreground transition-all duration-300 shadow-lg hover:shadow-xl hover:scale-105"

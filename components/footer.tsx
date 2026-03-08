@@ -1,7 +1,7 @@
 'use client';
 
 import Link from 'next/link';
-import { Mail, Phone, MapPin, Linkedin, Twitter, Facebook } from 'lucide-react';
+import { Mail, Phone, MapPin, Instagram } from 'lucide-react';
 
 export function Footer() {
   const currentYear = new Date().getFullYear();
@@ -74,14 +74,14 @@ export function Footer() {
             <ul className="space-y-3">
               <li className="flex gap-2 text-foreground/70 text-sm">
                 <Phone size={16} className="text-primary flex-shrink-0 mt-0.5" />
-                <a href="tel:+919876543210" className="hover:text-primary transition-colors">
-                  +91 98765 43210
+                <a href="tel:+917082425766" className="hover:text-primary transition-colors">
+                  +91 70824 25766
                 </a>
               </li>
               <li className="flex gap-2 text-foreground/70 text-sm">
                 <Mail size={16} className="text-primary flex-shrink-0 mt-0.5" />
-                <a href="mailto:info@neetomax.com" className="hover:text-primary transition-colors">
-                  info@neetomax.com
+                <a href="mailto:info@homoffy.co.in" className="hover:text-primary transition-colors">
+                  info@homoffy.co.in
                 </a>
               </li>
               <li className="flex gap-2 text-foreground/70 text-sm">
@@ -100,25 +100,11 @@ export function Footer() {
             </p>
             <div className="flex gap-4">
               <a
-                href="https://twitter.com"
-                aria-label="Twitter"
+                href="https://www.instagram.com/neetomaxx_?igsh=MWVtbWVucmxmNXRxaA%3D%3D&utm_source=qr"
+                aria-label="Instagram"
                 className="text-foreground/60 hover:text-primary transition-colors"
               >
-                <Twitter size={18} />
-              </a>
-              <a
-                href="https://facebook.com"
-                aria-label="Facebook"
-                className="text-foreground/60 hover:text-primary transition-colors"
-              >
-                <Facebook size={18} />
-              </a>
-              <a
-                href="https://linkedin.com"
-                aria-label="LinkedIn"
-                className="text-foreground/60 hover:text-primary transition-colors"
-              >
-                <Linkedin size={18} />
+                <Instagram size={18} />
               </a>
             </div>
           </div>

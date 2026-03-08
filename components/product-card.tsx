@@ -25,8 +25,9 @@ export function ProductCard({ product }: ProductCardProps) {
 
   const handleWhatsAppOrder = () => {
     setIsLoading(true);
-    const message = `Hi NEETOMAX, I would like to order:\n\nProduct: ${displayName}\nQuantity: ${quantity} ${product.unit}`;
-    const whatsappUrl = `https://wa.me/917078120273?text=${encodeURIComponent(message)}`;
+    const price = selectedVariant?.price || product.price;
+    const message = `Hi NEETOMAX, I would like to order:\n\nProduct: ${displayName}\nPrice: ₹${price}\nQuantity: ${quantity} ${product.unit}\nTotal: ₹${price * quantity}`;
+    const whatsappUrl = `https://wa.me/917082425766?text=${encodeURIComponent(message)}`;
     
     setTimeout(() => {
       window.open(whatsappUrl, '_blank');
@@ -56,6 +57,10 @@ export function ProductCard({ product }: ProductCardProps) {
           <h3 className="text-xl font-bold text-foreground text-balance mb-2 line-clamp-2 min-h-[56px]">
             {displayName}
           </h3>
+          <div className="flex items-baseline gap-2 mb-4">
+            <span className="text-2xl font-bold text-primary">₹{selectedVariant?.price || product.price}</span>
+            <span className="text-sm text-foreground/60">{product.unit}</span>
+          </div>
           <p className="text-sm text-foreground/70 mb-4 line-clamp-2">{product.description}</p>
         </div>
 

@@ -7,7 +7,7 @@ import { Phone, Clock } from 'lucide-react';
 
 export default function ContactPage() {
   const handleWhatsAppClick = () => {
-    const whatsappUrl = `https://wa.me/917078120273?text=${encodeURIComponent("Hello NEETOMAX, I would like to know more")}`;
+    const whatsappUrl = `https://wa.me/917082425766?text=${encodeURIComponent("Hello NEETOMAX, I would like to know more")}`;
     window.open(whatsappUrl, '_blank');
   };
 
@@ -37,8 +37,8 @@ export default function ContactPage() {
                   {
                     icon: Phone,
                     label: 'Phone',
-                    value: '+91 70781 20273',
-                    href: 'tel:+917078120273',
+                    value: '+91 70824 25766',
+                    href: 'tel:+917082425766',
                   },
                   {
                     icon: Clock,

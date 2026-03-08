@@ -144,7 +144,7 @@ export default function AboutPage() {
                 Explore Products
               </Link>
               <a
-                href="https://wa.me/917078120273?text=Hello%20NEETOMAX%2C%20I%20would%20like%20to%20know%20more%20about%20your%20products"
+                href="https://wa.me/917082425766?text=Hello%20NEETOMAX%2C%20I%20would%20like%20to%20know%20more%20about%20your%20products"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-block px-8 py-4 border-2 border-white text-white font-semibold rounded-lg hover:bg-white/10 transition-all duration-300"
